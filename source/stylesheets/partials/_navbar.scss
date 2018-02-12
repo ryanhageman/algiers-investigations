@@ -1,3 +1,27 @@
+$navbar-border: #e7e7e7;
+
+.navbar--desktop {
+  background: none;
+  border: 0;
+  box-shadow: none;
+  margin-bottom: 0;
+}
+
+.navbar-toggle {
+  border: 0;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.navbar--mobile {
+  background: none;
+  border: 0;
+  border-bottom: 1px solid $navbar-border;
+  box-shadow: none;
+  margin-bottom: 0;
+}
 // Mobile Only
 @media (max-width: 768px) {
   .navbar--desktop {
@@ -7,22 +31,10 @@
   .navbar-header {
     text-align: center;
   }
-
-  .navbar__menu-button {
-    float: none;
-    margin-right: 0;
-  }
 }
 
 // Desktop Only
 @media (min-width: 768px) {
-  .navbar--desktop {
-    background: none;
-    border: 0;
-    box-shadow: none;
-    margin-bottom: 0;
-  }
-
   .navbar__list--desktop {
     display: inline-block;
     float: none;
