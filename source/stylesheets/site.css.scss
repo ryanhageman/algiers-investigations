@@ -1,0 +1,16 @@
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+@import 'partials/navbar';
+
+header {
+  margin-bottom: 25px;
+}
+
+.header__subheader {
+  font-size: 1.5em;
+}
+
+main {
+  font-size: 1.1em;
+  margin: 25px 0;
+}
