@@ -1,7 +1,32 @@
+$subheader-color: #949494;
+
 header {
   margin-bottom: 25px;
 }
 
+.header__title {
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1.2em;
+  text-decoration: 0;
+  text-transform: 0;
+
+  // Mobile
+  @media (max-width: 767px) {
+    font-size: 40px;
+  }
+}
+
 .header__subheader {
-  font-size: 1.5em;
+  color: $subheader-color;
+  font-family: Varela, sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 3px;
+  line-height: 2em;
+  text-decoration: none;
+  text-transform: uppercase;
 }

@@ -1,10 +1,38 @@
 $navbar-border: #e7e7e7;
+$navbar-background-color: #fff;
+
+nav {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.page-divider {
+  border-bottom: 1px solid $navbar-border;
+  line-height: 1.6em;
+  margin-bottom: 1.6em;
+  margin-top: -1.7em;
+}
 
 .navbar--desktop {
   background: none;
   border: 0;
   box-shadow: none;
   margin-bottom: 0;
+
+  li {
+    background: $navbar-background-color;
+
+    a {
+      border-bottom: 1px solid transparent;
+      padding-bottom: 5px;
+
+      &:hover {
+        border-bottom-color: $navbar-border;
+        font-weight: 700;
+      }
+    }
+  }
+
 }
 
 .navbar-toggle {
@@ -22,8 +50,9 @@ $navbar-border: #e7e7e7;
   box-shadow: none;
   margin-bottom: 0;
 }
+
 // Mobile Only
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .navbar--desktop {
     display: none;
   }
