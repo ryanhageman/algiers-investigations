@@ -13,7 +13,7 @@ describe 'Index Page', type: :feature do
 
   it 'shows the front matter subtitle as the .header__subheader' do
     within '.header__subheader' do
-      expect(page).to have_content 'Louisiana Private Investigation Services'
+      expect(page).to have_content 'Private Investigation Services for Louisiana and the Gulf South'
     end
   end
 
