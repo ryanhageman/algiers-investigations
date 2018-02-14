@@ -43,6 +43,8 @@ page '/*.txt', layout: false
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
 configure :build do
+  activate :relative_assets
+  set :relative_links, true
   activate :minify_css
   activate :minify_javascript
 end
