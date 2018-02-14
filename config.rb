@@ -43,6 +43,7 @@ page '/*.txt', layout: false
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
 configure :build do
+  set :build_dir, 'docs'
   activate :relative_assets
   set :relative_links, true
   activate :minify_css
