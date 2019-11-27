@@ -12,9 +12,9 @@ GEM
     autoprefixer-rails (7.2.6)
       execjs
     backports (3.11.1)
-    bootstrap-sass (3.3.7)
+    bootstrap-sass (3.4.1)
       autoprefixer-rails (>= 5.2.1)
-      sass (>= 3.3.4)
+      sassc (>= 2.0.0)
     capybara (2.17.0)
       addressable
       mini_mime (>= 0.1.3)
@@ -107,11 +107,11 @@ GEM
       middleman-core (~> 4.0)
       sprockets (>= 3.0)
     mini_mime (1.0.0)
-    mini_portile2 (2.3.0)
+    mini_portile2 (2.4.0)
     minitest (5.11.3)
     nenv (0.3.0)
-    nokogiri (1.8.2)
-      mini_portile2 (~> 2.3.0)
+    nokogiri (1.10.5)
+      mini_portile2 (~> 2.4.0)
     notiffany (0.1.1)
       nenv (~> 0.1)
       shellany (~> 0.0)
@@ -148,6 +148,8 @@ GEM
       rspec-support (~> 3.7.0)
     rspec-support (3.7.1)
     sass (3.4.25)
+    sassc (2.2.1)
+      ffi (~> 1.9)
     servolux (0.13.0)
     shellany (0.0.1)
     sprockets (3.7.1)
@@ -168,7 +170,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootstrap-sass
+  bootstrap-sass (>= 3.4.1)
   capybara
   guard
   guard-rspec
@@ -182,4 +184,4 @@ DEPENDENCIES
   wdm (~> 0.1)
 
 BUNDLED WITH
-   1.16.0
+   1.17.2

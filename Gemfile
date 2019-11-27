@@ -7,7 +7,7 @@ gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw]
 
 gem 'middleman-sprockets'
 
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', ">= 3.4.1"
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-jquery'
