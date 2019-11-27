@@ -6,7 +6,7 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw]
 
 gem 'middleman-sprockets'
-gem 'sprockets', '~> 3.7.2'
+gem 'sprockets', '~> 4.0.0'
 
 gem 'bootstrap-sass', ">= 3.4.1"
 
