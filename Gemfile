@@ -15,7 +15,7 @@ source 'https://rails-assets.org' do
 end
 
 group :development do
-  gem 'rake'
+  gem 'rake', '>= 12.3.3'
   gem 'rspec'
   gem 'capybara'
   gem 'guard'
